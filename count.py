@@ -9,16 +9,11 @@
 
 from time import perf_counter
 
-def count1(x):
+def count(x):
 	i = 1
 	while i <= x:
 		i += 1
 		
-def count2(x):
-	for i in range(x):
-		pass
-count = count1
-
 goal = 2000000
 
 start = perf_counter()
