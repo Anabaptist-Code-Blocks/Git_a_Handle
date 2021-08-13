@@ -7,7 +7,7 @@
 #  Copyright (c) 2008 Northland Graphics. All rights reserved.
 #
 
-from time import clock
+from time import perf_counter
 
 def count1(x):
 	i = 1
@@ -21,11 +21,11 @@ count = count1
 
 goal = 2000000
 
-start = clock()
+start = perf_counter()
 
 count(goal)
 
-stop = clock()
+stop = perf_counter()
 
 print("It took", stop - start, "seconds to count to", goal)
 
