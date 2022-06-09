@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 
 namespace ScaryLarry
 {
@@ -6,7 +7,7 @@ namespace ScaryLarry
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World, this is my basic program that lacks inthusiasm.");
+			Console.WriteLine("Please shut this program down right, now. It is about to eat your computer...");
 		}
 	}
 }
